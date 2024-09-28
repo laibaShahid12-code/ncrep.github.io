@@ -900,3 +900,123 @@
 /*** copyright end ***/
 
 
+#userAccount i {
+    margin-right: 8px;
+    /* Space between icon and text */
+    font-size: 1.2em;
+    /* Adjust icon size */
+    color: #ffffff;
+    /* Ensures the icon matches the button text color */
+}
+
+
+
+.offcanvas-body {
+    background-color: rgb(224, 224, 224);
+}
+
+.btn-close {
+    float: right !important;
+}
+
+
+#profileImage {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#fileInput {
+    display: none;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.password-container input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.offcanvas-body {
+    background-color: rgb(224, 224, 224);
+}
+
+#form {
+    background-color: white;
+    border-radius: 5px;
+}
+
+#offcanvasRight {
+    width: 350px !important;
+}
+
+.btn-close {
+    float: right !important;
+}
+
+#profileImage {
+    border: 2px solid #ddd;
+    /* Optional: adds a subtle border around the image */
+    padding: 5px;
+}
+
+#profile button i {
+    margin-right: 8px;
+    /* Adds spacing between the icon and button text */
+    font-size: 1.1em;
+    /* Adjust icon size to fit with the text */
+}
+
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profileImage {
+    transition: all 0.3s ease;
+}
+
+#profileImage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-close-white {
+    filter: invert(1);
+}
+
+.btn-outline-light:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.btn {
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #004085;
+    border-color: #003566;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f;
+    border-color: #c62828;
+}
